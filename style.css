@@ -1,0 +1,44 @@
+   .user{
+    margin: 25px 600px;
+    width: 700px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+  }
+  .user thead tr{
+    background-color: rgb(63, 156, 63);
+    color: white;
+    text-align: left;
+    font-weight: bold;
+  }
+  .user th, .user td{
+    padding: 8px 8px;
+  }
+  .user tbody tr:nth-of-type(even){
+    background-color: rgb(208, 243, 208)
+  } 
+  .user tbody tr:nth-child(odd){
+    background-color: rgb(158, 218, 158);
+  }
+
+.log{
+  text-align: center;
+}
+.sign-up{
+  text-align: center;
+}
+input[type="text" i] {
+  padding: 10px 150px;
+}
+
+input[type="email" i] {
+  padding: 10px 150px;
+}
+input[type="password" i] {
+  padding: 10px 150px;
+}
+#button{
+  width: 470px;
+  height: 40px;
+  background-color: rgb(63, 156, 63); 
+  color: white;
+}
